@@ -1,0 +1,94 @@
+.breadcumb {
+    background: #2056AE url(../img/s1.jpg) no-repeat top right;
+    background-size: contain;
+    padding: 20px 0;
+    h1 {
+        padding: 9px 0;
+        font-weight: 700;
+        color: #fff;
+        display: block;
+        font-size: 34px;
+    }
+}
+
+.who {
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    i {
+        font-size: 26px;
+        margin: 2px 8px 0 0;
+        color: #ffc02a;
+        background: #055999;
+        padding: 16px;
+        height: 58px;
+        display: inline-block;
+        border: 1px solid #055999;
+    }
+    h3 {
+        padding-bottom: 8px;
+        text-transform: uppercase;
+        margin: 0;
+        font-weight: 700;
+        line-height: 1.1em;
+        color: #333;
+        font-size: 18px;
+    }
+}
+
+.why {
+    h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .accordion-flush .accordion-item .accordion-button {
+        border-radius: 0;
+        background: #F4F4F4;
+        font-size: 14px;
+        &:hover {
+            text-decoration: underline;
+        }
+        &::after {
+            flex-shrink: 0;
+            width: 20px;
+            left: -1px;
+            transform: rotate(271deg);
+            height: 10px;
+            margin-left: auto;
+            content: "";
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 13px;
+            top: 18px;
+        }
+    }
+    .accordion-body {
+        padding: 1rem 1.25rem;
+        background: #F4F4F4;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .progress {
+        height: 5px;
+    }
+    .prg {
+        p {
+            color: #000;
+            margin: 12px 0;
+            font-weight: 600;
+        }
+    }
+}
+
+.team {
+    h4 {
+        font-weight: 600;
+        line-height: 1.1em;
+        color: #333;
+        margin-bottom: 20px;
+    }
+    p {
+        margin-top: -15px;
+    }
+}

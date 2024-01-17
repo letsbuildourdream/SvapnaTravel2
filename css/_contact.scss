@@ -1,0 +1,15 @@
+    .contact {
+        h2 {
+            font-size: 26px;
+            font-weight: 700;
+        }
+        .form-control {
+            &:focus {
+                outline: seagreen;
+            }
+        }
+        .btn {
+            border-radius: 0;
+            background: #055999;
+        }
+    }

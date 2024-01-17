@@ -1,0 +1,398 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap");
+.service h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.service i {
+  font-size: 26px;
+  margin: 2px 8px 0 0;
+  color: #055999;
+  padding: 16px;
+  height: 58px;
+  display: inline-block;
+  border: 1px solid #055999;
+}
+.service h3 {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: #555;
+  font-size: 18px;
+}
+
+.breadcumb {
+  background: #2056AE url(../img/s1.jpg) no-repeat top right;
+  background-size: contain;
+  padding: 20px 0;
+}
+.breadcumb h1 {
+  padding: 9px 0;
+  font-weight: 700;
+  color: #fff;
+  display: block;
+  font-size: 34px;
+}
+
+.who h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.who i {
+  font-size: 26px;
+  margin: 2px 8px 0 0;
+  color: #ffc02a;
+  background: #055999;
+  padding: 16px;
+  height: 58px;
+  display: inline-block;
+  border: 1px solid #055999;
+}
+.who h3 {
+  padding-bottom: 8px;
+  text-transform: uppercase;
+  margin: 0;
+  font-weight: 700;
+  line-height: 1.1em;
+  color: #333;
+  font-size: 18px;
+}
+
+.why h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.why .accordion-flush .accordion-item .accordion-button {
+  border-radius: 0;
+  background: #F4F4F4;
+  font-size: 14px;
+}
+.why .accordion-flush .accordion-item .accordion-button:hover {
+  text-decoration: underline;
+}
+.why .accordion-flush .accordion-item .accordion-button::after {
+  flex-shrink: 0;
+  width: 20px;
+  left: -1px;
+  transform: rotate(271deg);
+  height: 10px;
+  margin-left: auto;
+  content: "";
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 13px;
+  top: 18px;
+}
+.why .accordion-body {
+  padding: 1rem 1.25rem;
+  background: #F4F4F4;
+  font-size: 14px;
+  font-weight: 500;
+}
+.why .progress {
+  height: 5px;
+}
+.why .prg p {
+  color: #000;
+  margin: 12px 0;
+  font-weight: 600;
+}
+
+.team h4 {
+  font-weight: 600;
+  line-height: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.team p {
+  margin-top: -15px;
+}
+
+.portfolio {
+  padding-bottom: 50px;
+}
+.portfolio h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.portfolio li {
+  display: inline-block;
+}
+.portfolio li a {
+  display: block;
+  color: #777;
+  text-decoration: none;
+  padding: 25px;
+  font-weight: 700;
+}
+.portfolio li a:hover {
+  color: #064d8b;
+}
+.portfolio .item {
+  font-weight: 600;
+  padding: 15px 0 0;
+}
+.portfolio .cont {
+  margin: -15px 0 15px;
+}
+
+.port-image {
+  width: 100%;
+}
+
+.gallery_product {
+  margin-bottom: 30px;
+}
+
+figure {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+figure img {
+  transition: 0.5s;
+}
+figure::before {
+  content: "";
+  background: rgba(0, 0, 0, 0.4);
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  display: none;
+  height: 100%;
+}
+figure .pic {
+  position: absolute;
+  top: 45%;
+  left: -15%;
+  transform: translateX(0px);
+  transition: 0.2s;
+  z-index: 9999;
+}
+figure .pic i {
+  color: #fff;
+  background: #055999;
+  padding: 15px;
+}
+figure .pic i:hover {
+  background: #fff;
+  color: #055999;
+}
+figure .link {
+  position: absolute;
+  top: 45%;
+  right: -15%;
+  transform: translateX(0px);
+  transition: 0.2s;
+  z-index: 9999;
+}
+figure .link i {
+  color: #fff;
+  background: #055999;
+  padding: 15px;
+}
+figure .link i:hover {
+  background: #fff;
+  color: #055999;
+}
+figure:hover img {
+  transform: scale(1.3);
+}
+figure:hover::before {
+  display: block;
+}
+figure:hover .pic {
+  transform: translateX(185px);
+}
+figure:hover .link {
+  transform: translateX(-185px);
+}
+
+.pricing h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.pricing h3 {
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: -1px;
+  color: #055999;
+  text-transform: capitalize;
+}
+.pricing h6 {
+  margin-top: 20px;
+  color: #000;
+  font-size: 22px;
+  font-weight: normal;
+  background: #ffffff;
+  padding: 20px 0;
+}
+.pricing .btn {
+  border-radius: 0;
+  background: #055999;
+  margin: 30px 0;
+}
+
+.contact h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.contact .form-control:focus {
+  outline: seagreen;
+}
+.contact .btn {
+  border-radius: 0;
+  background: #055999;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #656565;
+  font-family: "Open Sans", sans-serif;
+}
+
+p {
+  font-size: 14px;
+}
+
+.container {
+  max-width: 1155px;
+}
+
+nav .logo img {
+  width: 225px;
+}
+nav button .navbar-toggler-icon {
+  background: #055999;
+  color: red;
+}
+nav .nav-item a:hover {
+  background: #055999;
+  color: #fff;
+}
+nav .nav-item .active {
+  background: #055999;
+  color: #fff;
+}
+nav .nav-item .nav-link:hover {
+  background: #055999;
+  color: #fff;
+}
+nav .dropdown-menu {
+  border: none;
+  border-radius: 0;
+}
+
+.banner .carousel-caption h3 {
+  color: #ffffff;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  font-size: 38px;
+  font-weight: bold;
+}
+.banner .carousel-caption p {
+  line-height: 22px;
+  font-weight: 300;
+}
+
+.servicee h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 600;
+  line-height: 1.1em;
+  color: #333;
+  margin-bottom: 20px;
+}
+.servicee .card {
+  padding: 60px 15px 20px;
+  background: #efefef;
+  border-radius: 0;
+}
+.servicee .card i {
+  font-size: 60px;
+  padding: 10px;
+}
+.servicee .card .card-title {
+  padding: 20px 0;
+  color: #000;
+}
+.servicee .card .btn {
+  border-radius: 0;
+}
+.servicee .card:hover {
+  border: 1px solid #055999;
+  background: #fff;
+}
+
+.secbanner {
+  padding: 50px 0 30px;
+  background: #055999;
+  margin: 60px 0;
+}
+.secbanner img {
+  width: 100%;
+}
+
+.slider-down .sliders img {
+  filter: grayscale(100%);
+}
+.slider-down .sliders img:hover {
+  filter: grayscale(0%);
+}
+
+.owl-carousel .owl-nav {
+  top: -67px;
+  position: absolute;
+  right: 63px;
+  font-size: 60px;
+}
+.owl-carousel .owl-nav .owl-prev {
+  margin: 0 20px;
+}
+
+footer .footer-up {
+  background-color: #1B1B1B;
+  padding: 50px 0;
+  color: #949494;
+  line-height: 1.8;
+}
+footer .footer-up h2 {
+  font-size: 14px;
+  font-weight: bold;
+}
+footer .footer-up p {
+  font-size: 14px;
+}
+footer .footer-up ul li a {
+  text-decoration: none;
+  color: #949494;
+}
+footer .footer-down {
+  background: #191919;
+  color: #f5f5f5;
+}
+footer .footer-down .scrollup {
+  position: fixed;
+  font-size: 35px;
+  z-index: 99999;
+  bottom: 0px;
+  right: 30px;
+  display: none;
+}
+footer .footer-down .scrollup i {
+  font-size: 10px;
+  color: #fff;
+  background: #055999;
+  padding: 12px;
+}/*# sourceMappingURL=style.css.map */
